@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulation Parameters</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Adjust margin and padding for the container */
+        .container-custom {
+            padding: 20px;
+            background-color: #f8f9fa; /* Grey color */
+        }
+    </style>
+</head>
+<body>
+    <div class="container container-custom">
+        <h1 class="text-center mb-4">Simulation Parameters</h1>
+        <form action="/" method="post" autocomplete="off">
+            <div class="form-group">
+                <label for="rC">rC:</label>
+                <input type="text" class="form-control" name="rC" value="{{ rC }}">
+            </div>
+            
+            <div class="form-group">
+                <label for="dC">dC:</label>
+                <input type="text" class="form-control" name="dC" value="{{ dC }}">
+            </div>
+            
+            <div class="form-group">
+                <label for="rH">rH:</label>
+                <input type="text" class="form-control" name="rH" value="{{ rH }}">
+            </div>
+            
+            <div class="form-group">
+                <label for="kIL">kIL:</label>
+                <input type="text" class="form-control" name="kIL" value="{{ kIL }}">
+            </div>
+            
+            <div class="form-group">
+                <label for="kCT">kCT:</label>
+                <input type="text" class="form-control" name="kCT" value="{{ kCT }}">
+            </div>
+            
+            <div class="form-group">
+                <label for="s">s:</label>
+                <input type="text" class="form-control" name="s" value="{{ s }}">
+            </div>
+            
+            <div class="form-group">
+                <label for="K">K:</label>
+                <input type="text" class="form-control" name="K" value="{{ K }}">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS (Optional, for Bootstrap features like modal) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,3 +1,8 @@
+## Group Members
+1. Muhammad Aiman Bin Abdul Razak (A20EC0082)
+2. Shahril Bin Saiful Bahri (A20EC0144)
+3. Navinthra Rao A/L VenkataKumar (A20EC0104)
+
 For this project, the libraries used are numpy, matplotlib and scipy.
 
 Numpy is used for handling arrays.
